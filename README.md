@@ -164,8 +164,7 @@ NSMutableData *data;
 
 ## 原理
 [Reducing FOOMs in the Facebook iOS app](https://engineering.fb.com/2015/08/24/ios/reducing-fooms-in-the-facebook-ios-app/)
-![[Pasted image 20240206151429.png]]
-
+![OOM](oom.png)
 
 穷举上次app退出的原因：
 - app更新（上次保存的app版本号与本次启动的版本号不一致）
