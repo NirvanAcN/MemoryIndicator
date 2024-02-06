@@ -14,6 +14,7 @@
 		873590672B71DC0A00FA1D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873590662B71DC0A00FA1D57 /* Assets.xcassets */; };
 		8735906A2B71DC0A00FA1D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873590682B71DC0A00FA1D57 /* LaunchScreen.storyboard */; };
 		8735906D2B71DC0A00FA1D57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8735906C2B71DC0A00FA1D57 /* main.m */; };
+		873590752B71DC1900FA1D57 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 873590742B71DC1900FA1D57 /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		873590692B71DC0A00FA1D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8735906B2B71DC0A00FA1D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8735906C2B71DC0A00FA1D57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873590732B71DC1900FA1D57 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		873590742B71DC1900FA1D57 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				8735905A2B71DC0800FA1D57 /* AppDelegate.h */,
 				8735905B2B71DC0800FA1D57 /* AppDelegate.m */,
+				873590732B71DC1900FA1D57 /* TestObject.h */,
+				873590742B71DC1900FA1D57 /* TestObject.m */,
 				8735905D2B71DC0800FA1D57 /* SceneDelegate.h */,
 				8735905E2B71DC0800FA1D57 /* SceneDelegate.m */,
 				873590602B71DC0800FA1D57 /* ViewController.h */,
@@ -148,6 +153,7 @@
 			files = (
 				873590622B71DC0800FA1D57 /* ViewController.m in Sources */,
 				8735905C2B71DC0800FA1D57 /* AppDelegate.m in Sources */,
+				873590752B71DC1900FA1D57 /* TestObject.m in Sources */,
 				8735906D2B71DC0A00FA1D57 /* main.m in Sources */,
 				8735905F2B71DC0800FA1D57 /* SceneDelegate.m in Sources */,
 			);
@@ -298,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBF6884DSQ;
+				DEVELOPMENT_TEAM = 5UP8CQ9FM4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoryIndicator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -306,6 +312,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBF6884DSQ;
+				DEVELOPMENT_TEAM = 5UP8CQ9FM4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoryIndicator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

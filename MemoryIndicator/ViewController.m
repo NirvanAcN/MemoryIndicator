@@ -12,11 +12,27 @@
 @end
 
 @implementation ViewController
-
+{
+    char *mem;
+    NSMutableData *data;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
 }
 
+- (IBAction)click:(id)sender {
+    data = [NSMutableData dataWithLength:51 * 1024 * 1024];
+}
+
+- (IBAction)expanClick:(id)sender {
+    NSData *tData = [NSMutableData dataWithLength:1024*1024];
+    [data appendData:tData];
+}
+
+- (IBAction)deClick:(id)sender {
+    data = nil;
+}
 
 @end
